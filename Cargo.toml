@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "src/machine_leanring_backend",
+]
