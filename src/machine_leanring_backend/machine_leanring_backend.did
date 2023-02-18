@@ -1,3 +1,17 @@
+type Dictionary = record {
+  id2words : vec record { nat64; text };
+  n_ids : nat64;
+  word2id : vec record { text; nat64 };
+};
+type ParameterStore = record { cols : nat64; weights : vec float32 };
+type Sampler = record { max : float32; counts : vec float32 };
 service : {
-    "greet": (text) -> (text) query;
+  gen_dict : () -> ();
+  gen_unigram : () -> (ParameterStore);
+  gen_vec : () -> () query;
+  get_all_dict : () -> (Dictionary) query;
+  get_sample : () -> (Sampler) query;
+  input_dict_data : (text) -> ();
+  query_dict_data : () -> (vec text) query;
+  test_read : () -> () query;
 }
