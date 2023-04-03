@@ -1,18 +1,18 @@
 {
   "version": 1,
   "canisters": {
-    "machine_leanring_backend": {
+    "machine_learning_backend": {
       "type": "rust",
-      "package": "machine_leanring_backend",
-      "candid": "src/machine_leanring_backend/machine_leanring_backend.did"
+      "package": "machine_learning_backend",
+      "candid": "src/machine_learning_backend/machine_learning_backend.did"
     },
-    "machine_leanring_frontend": {
+    "machine_learning_frontend": {
       "type": "assets",
       "source": [
-        "src/machine_leanring_frontend/assets"
+        "src/machine_learning_frontend/assets"
       ],
       "dependencies": [
-        "machine_leanring_backend"
+        "machine_learning_backend"
       ]
     }
   },
