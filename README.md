@@ -1,10 +1,10 @@
-# machine_leanring
+# machine_learning
 
-Welcome to your new machine_leanring project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+Welcome to your new machine_learning project and to the Internet Computer's Development Community. This is demonstrates machine learning running on Dfinity's Internet Computer Protocol - a decentralized platform that can displace the use of centrally-owned infrastructure.
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
-To learn more before you start working with machine_leanring, see the following documentation available online:
+To learn more before you start working with machine_learning, see the following documentation available online:
 
 - [Quick Start](https://smartcontracts.org/docs/quickstart/quickstart-intro.html)
 - [SDK Developer Tools](https://smartcontracts.org/docs/developers-guide/sdk-guide.html)
